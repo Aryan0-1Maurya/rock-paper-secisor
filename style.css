@@ -1,0 +1,156 @@
+/* 
+
+     ============================================================
+      
+          _____________   ^^^^^^^^^^    ____________________
+
+[   By ~Aryan Maurya Mr.perfect https://amsrportfolio.netlify.app  ]
+
+          _____________   ^^^^^^^^^^    ____________________
+
+     ============================================================
+
+*/
+
+body{
+    margin:0;
+    font-size:13px;
+}
+.container {
+    width:100vh;
+    height:100vw;
+    font-family:"Press Start 2P";
+    position:relative;
+    background-color:lightGrey;
+   /* left:-14px;*/
+}
+div{
+    position:absolute;
+}
+.pName, .eName{
+    width:40%;
+    height:20px;
+    background-color:blue;
+    transform:skew(20deg);
+    opacity:0.5;
+    color:white;
+    align-item:middle;
+    top:2px;
+    left:12px;
+}
+.eName{
+    left:58%;
+    transform:skew(-20deg);
+}
+.pHP,#pHP{
+    width:40%;
+    height:5px;
+    background:grey;
+    transform:skew(20deg);
+    top:25px;
+    left:18px;
+}
+#pHP{
+    width:100%;
+    top:0;
+    left:0;
+    background:red;
+}
+.eHP,#eHP{
+    width:40%;
+    height:5px;
+    background:grey;
+    transform:skew(-20deg);
+    top:25px;
+    left:57%;
+}
+#eHP{
+    width:100%;
+    top:0;
+    left:0;
+    background:red;
+}
+.nav{
+    width:100%;
+    height:100px;
+    background:blue;
+    bottom:0px;
+    opacity:0.5;
+}
+#rock{
+    width:100px;
+    height:40px;
+    border-radius:20%;
+    outline:none;
+    position:absolute;
+    left:10%;
+    top:10%;
+}
+#paper{
+    width:100px;
+    height:40px;
+    border-radius:20%;
+    outline:none;
+    position:absolute;
+    left:40%;
+    top:20%;
+}
+#scissor{
+    width:100px;
+    height:40px;
+    border-radius:20%;
+    outline:none;
+    position:absolute;
+    left:70%;
+    top:10%;
+}
+#plImg,#enImg{
+    width:100px;
+    position:absolute;
+}
+img{
+    width:50px;
+    position:absolute;
+}
+#plImg{
+    top:40vw;
+    left:-200px;
+}
+#enImg{
+    top:40vw;
+    left:120vh;
+    transform:rotateY(180);
+}
+#pRockImg{
+    top:35vw;
+}
+#eRockImg{
+    top:35vw;
+    left:90vh;
+}
+
+
+@media only screen and (orientation:portrait){ body { height: 100vw; transform: rotate(90deg); } }
+
+@media only screen and (orientation:landscape){
+  .container {
+    display:none;
+  }
+  .rotat{
+      display:block;
+  }
+}
+
+/* 
+
+     ============================================================
+      
+          _____________   ^^^^^^^^^^    ____________________
+
+[   By ~Aryan Maurya Mr.perfect https://amsrportfolio.netlify.app  ]
+
+          _____________   ^^^^^^^^^^    ____________________
+
+     ============================================================
+
+*/
