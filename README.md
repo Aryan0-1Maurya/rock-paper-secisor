@@ -4,7 +4,7 @@ Play the classic game of Rock, Paper, Scissors against the computer! 🤘📄✂
 
 ## Play the Game
 
-[Play Now](https://aryan0-1maurya.github.io/rock-paper-scissors/) 🕹️
+[Play Now]( https://aryan0-1maurya.github.io/rock-paper-secisor/) 🕹️
 
 ## About the Game
 
